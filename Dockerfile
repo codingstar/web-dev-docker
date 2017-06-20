@@ -44,7 +44,7 @@ RUN true \
   # 修改时区
   && ln -sf /usr/share/zoneinfo/PRC /etc/localtime \
   # just for fun
-  && echo 'ZSH_THEME="random"' > ~/.oh-my-zsh/custom/custom.zsh
+  && echo 'ZSH_THEME="ys"' > ~/.oh-my-zsh/custom/custom.zsh
 
 EXPOSE 80 8080
 
